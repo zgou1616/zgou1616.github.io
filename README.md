@@ -1,33 +1,80 @@
-# Personal GitHub Pages starter
+# Zheming Gou — GitHub Pages
 
-## Replace these placeholders
+This is a clean academic personal website styled after the general visual pattern of modern faculty websites: a top navigation bar, left profile column, compact sans-serif typography, purple links, and content sections on the right.
 
-Search the project for:
+## Your website URL
 
-- `YOUR_USERNAME`
+Because your GitHub username is `zgou1616`, the repository must be named:
+
+```text
+zgou1616.github.io
+```
+
+Your public website will be:
+
+```text
+https://zgou1616.github.io
+```
+
+The repository page itself will be:
+
+```text
+https://github.com/zgou1616/zgou1616.github.io
+```
+
+These are different URLs: one is the public website, and one is the GitHub source repository.
+
+## Publish through the GitHub website
+
+1. Sign in to GitHub.
+2. Create a new public repository named exactly `zgou1616.github.io`.
+3. Open the repository.
+4. Select **Add file → Upload files**.
+5. Upload `index.html` and the complete `assets` folder.
+6. Commit the files.
+7. Open **Settings → Pages**.
+8. Choose **Deploy from a branch**.
+9. Select `main` and `/ (root)`.
+10. Save.
+
+## Replace placeholders
+
+Search `index.html` for:
+
 - `YOUR_EMAIL`
 - `YOUR_GOOGLE_SCHOLAR_URL`
 - `YOUR_LINKEDIN_URL`
-- `#` publication links
+- `Replace with your email`
+- links written as `href="#"`
 
-Replace `assets/images/profile-placeholder.svg` with your own photo, preferably a square JPG named `profile.jpg`, then update the image path in `index.html`.
+## Add your photo
 
-Place your CV at `assets/files/cv.pdf`.
+Upload a square photo to:
 
-## Publish
+```text
+assets/images/profile.jpg
+```
 
-Create a public repository named exactly:
+Then replace:
 
-`YOUR_USERNAME.github.io`
+```html
+assets/images/profile-placeholder.svg
+```
 
-Upload all files in this folder to the repository root. In repository Settings → Pages, choose:
+with:
 
-- Source: Deploy from a branch
-- Branch: `main`
-- Folder: `/ (root)`
+```html
+assets/images/profile.jpg
+```
 
-Your website will appear at `https://YOUR_USERNAME.github.io/`.
+## Add your CV
 
-## Maintain
+Put your CV here:
 
-Edit `index.html` to update text, links, projects, and publications. Edit `assets/css/style.css` to change appearance.
+```text
+assets/files/Zheming_Gou_CV.pdf
+```
+
+## Important
+
+This package recreates the general layout, typography, spacing, and visual character of the reference website with original HTML and CSS. It does not copy the other person's biography, images, or private assets.

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
-<rect width="400" height="400" fill="#eef2f7"/>
-<circle cx="200" cy="155" r="72" fill="#b8c3d4"/>
-<path d="M70 390c12-104 65-156 130-156s118 52 130 156" fill="#b8c3d4"/>
-<text x="200" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#526078">Replace with your photo</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#edf0f5"/>
+  <circle cx="250" cy="185" r="92" fill="#b9c1ce"/>
+  <path d="M72 500c16-138 89-207 178-207s162 69 178 207" fill="#b9c1ce"/>
+  <text x="250" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#586174">Replace with your photo</text>
 </svg>
